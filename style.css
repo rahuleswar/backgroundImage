@@ -1,0 +1,141 @@
+.index {
+        background-image: url('1.jpg');
+        background-size:cover;
+        -webkit-animation: slidein 95s;
+        animation: slidein 95s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:1000px; }
+to {background-position: -100px 0px;background-size:2000px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:1400px; }
+to {background-position: 0px 0px;background-size:2000px;}
+
+}
+
+
+.index2{
+     background-image: url('2.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.index3{
+     background-image: url('3.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.index4{
+     background-image: url('4.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;     
+}
+
+.index5{
+     background-image: url('5.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+
+
+
+div {
+     text-align: center;
+     position: relative;
+     top: 330px;
+     color: white;
+
+} 
+
+.page2{
+  position: relative;
+  top: 220px;
+  left: 94px;
+}
+
+.page3{
+  position: relative;
+  top: 290px;
+  left: 435px;
+}
+
+.page4{
+  position: relative;
+  top: 10px;
+  left: 430px;
+}
+
+.page5{
+  position: relative;
+  top: 200px;
+  left: 20px;
+}
+
+ 
+
+.b1{
+    border: none;
+    height: 40px;
+    width: 20%;
+    margin-bottom: 0px;
+    font-size: 23px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgba(100, 90, 100, 0.1);
+    background-color: ;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .list{
+    position: relative;
+    top: -87px;
+    left: 1000px;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -30px;
+}
+
+li{
+  float: left;
+ }
+ 
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
