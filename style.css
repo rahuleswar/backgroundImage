@@ -95,7 +95,9 @@ div {
   left: 20px;
 }
 
- 
+a{
+   text-decoration: none;
+}
 
 .b1{
     border: none;
